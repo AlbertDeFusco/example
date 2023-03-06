@@ -116,3 +116,5 @@ conda project lock --force --all
 
 If you've modified either of the environment.yml files, when running `conda project run` or
 `conda project activate` it will re-lock the environments.
+
+For more details about what conda-project can do see the [User Guide](https://github.com/conda-incubator/conda-project/blob/commands/docs/source/user_guide.md)
