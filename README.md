@@ -77,11 +77,6 @@ dependencies:
   - types-setuptools
   - types-requests
   - types-pyyaml
-dependencies:
-  - pytest
-  - types-setuptools
-  - types-requests
-  - types-pyyaml
 
 channels:
   - defaults
