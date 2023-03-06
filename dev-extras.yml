@@ -3,3 +3,13 @@ dependencies:
   - types-setuptools
   - types-requests
   - types-pyyaml
+
+channels:
+  - defaults
+  - conda-forge
+
+platforms:
+  - linux-64
+  - osx-64
+  - osx-arm64
+  - win-64

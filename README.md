@@ -75,6 +75,21 @@ dependencies:
   - types-setuptools
   - types-requests
   - types-pyyaml
+dependencies:
+  - pytest
+  - types-setuptools
+  - types-requests
+  - types-pyyaml
+
+channels:
+  - defaults
+  - conda-forge
+
+platforms:
+  - linux-64
+  - osx-64
+  - osx-arm64
+  - win-64
 ```
 
 Then in the `conda-project.yml` file the conda environments called `default` and `dev` are declared
