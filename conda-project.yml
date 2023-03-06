@@ -1,0 +1,9 @@
+name: example
+
+environments:
+  default:
+    - environment.yml
+  dev:
+    - environment.yml
+    - dev-extras.yml
+

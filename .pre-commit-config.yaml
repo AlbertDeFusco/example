@@ -1,0 +1,13 @@
+# This is the configuration for pre-commit, a local framework for managing pre-commit hooks
+#   Check out the docs at: https://pre-commit.com/
+
+exclude: (.*/envs/.*)  # Exclude conda environments
+
+repos:
+  - repo: https://github.com/pre-commit/mirrors-mypy
+  rev: v1.0.1
+  hooks:
+  - id: mypy
+    name: mypy (foobar)
+    language: system
+    files: foobar/

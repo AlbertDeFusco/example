@@ -1,0 +1,18 @@
+dependencies:
+  - python=3.9
+  - datadog
+  - pygithub
+  - boto3
+  - prefect
+  - python-json-logger
+  - slack-sdk
+
+channels:
+  - defaults
+  - conda-forge
+
+platforms:
+  - osx-64
+  - linux-64
+  - osx-arm64
+  - win-64
