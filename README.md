@@ -26,7 +26,9 @@ On first-run of `run` or `activate` the desired environment is installed from th
 conda-lock files into `./envs/`. You can have both `dev` and `default` installed into `./envs`
 at the same time.
 
-## More details
+For more details about what conda-project can do see the [User Guide](https://github.com/conda-incubator/conda-project/blob/commands/docs/source/user_guide.md)
+
+## In-depth
 
 A conda project contains environment specification files, locked environment specification files,
 and a `conda-project.yml` file.
@@ -117,4 +119,3 @@ conda project lock --force --all
 If you've modified either of the environment.yml files, when running `conda project run` or
 `conda project activate` it will re-lock the environments.
 
-For more details about what conda-project can do see the [User Guide](https://github.com/conda-incubator/conda-project/blob/commands/docs/source/user_guide.md)
