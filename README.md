@@ -8,7 +8,7 @@ First install [conda-project](https://github.com/conda-incubator/conda-project)
 conda install -c defusco conda-project
 ```
 
-In the directory where you cloned this repository you can run a command in the environment directly
+In the directory where you cloned this repository you can run a command directly
 in either the `default` or `dev` environment. For example to run `pre-commit` (typically installed in your base conda env)
 on the `dev` env
 
@@ -16,12 +16,15 @@ on the `dev` env
 conda project run --environment=dev pre-commit
 ```
 
-
 or you can activate the development enviroment and run commands
 
 ```
 conda project activate dev
 ```
+
+On first-run of `run` or `activate` the desired environment is installed from the supplied
+conda-lock files into `./envs/`. You can have both `dev` and `default` installed into `./envs`
+at the same time.
 
 ## More details
 
